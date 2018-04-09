@@ -1,0 +1,18 @@
+<div class="login-wrapper">
+  <form #loginForm="ngForm">
+    <h1>Please log in</h1>
+    <fieldset>
+      <label for="username">Username</label>
+      <input type="text" name="username" #username="ngModel" [ngModel]="login.username" />
+    </fieldset>
+
+    <fieldset>
+      <label for="password">Password</label>
+      <input type="password" name="password" #password="ngModel" [ngModel]="login.password" />
+    </fieldset>
+    <div class="button-holder">
+      <button (click)="doLogin(); false">Login</button>
+    </div>
+
+  </form>
+</div>

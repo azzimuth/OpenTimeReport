@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+.test {
+    background-color: #fff;
+}
+
+fieldset {
+    border: none;
+}
+
+@font-face {
+    font-family: BarterExchangeRegular;
+    src: url('/assets/BarterExchange-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('/assets/BarterExchange-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/assets/BarterExchange-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/assets/BarterExchange-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/assets/BarterExchange-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/assets/BarterExchange-Regular.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+  font-family: BarterExchangeItalic;
+  src: url('/assets/BarterExchange-Italic.eot');
+  /* IE9 Compat Modes */
+  src: url('/assets/BarterExchange-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/assets/BarterExchange-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/BarterExchange-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+  url('/assets/BarterExchange-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('/assets/BarterExchange-Italic.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+
+h1, label {
+    font-family: BarterExchangeRegular, Helvetica, Arial, sans-serif;
+}
+
+em, cite, blockquote {
+  font-family: BarterExchangeItalic, Helvetica, Arial, sans-serif;
+}

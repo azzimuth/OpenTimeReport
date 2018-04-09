@@ -1,0 +1,51 @@
+.login-wrapper {
+    border-radius: 5px;
+    border: #0db6e9 3px solid;
+    background-color: #13d4c6;
+    max-width: 450px;
+    margin: 0 auto;
+    form {
+        padding-bottom: 10px;
+    }
+    fieldset {
+        margin-bottom: 10px;
+        margin-right: 7px;
+        padding-right: 2rem;
+        label {
+            margin-bottom: 0.3rem;
+        }
+        input{
+          padding-left: 0.5rem;
+          width: 100%;
+          border-radius: 3px;
+          font-size: 1.5rem;
+          height: 2.5rem;
+        }
+    }
+    h1 {
+        padding-left: 1rem;
+    }
+    label:after {
+        content: ":";
+    }
+    .button-holder {
+        margin-left: 14px;
+        margin-bottom: 10px;
+        button {
+          margin-top: 0.9rem;
+            font-size: 1.5rem;
+            border-radius: 3px;
+        }
+    }
+    label,
+    input {
+        display: block;
+    }
+    @media only screen and (max-width: 352px) {
+        .button-holder {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
